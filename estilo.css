@@ -6,9 +6,9 @@ header {
         background-position: left;
         background-repeat: no-repeat;
         padding-bottom: 23px;
-        font-family: 'Droid Serif';
-      font-style: normal;
-      font-weight: 400;
+        font-family: 'Indie Flower', cursive;
+        font-style: normal;
+        font-weight: 400;
 
 }
 body {
@@ -17,19 +17,18 @@ body {
     background-color: #107407;
   
     font-family:  'Droid Serif','Yanone Kaffeesatz', sans-serif, 'Verdana';
-    background-image: url('../img/fondo_principal.jpg');
+    background-image: url('https://w.wallhaven.cc/full/4x/wallhaven-4x871z.jpg');
     background-attachment: fixed;
     background-position: center;
-    background-repeat: repeat-x;
+    background-size: cover;
   }
-  div{
+  #form{
     position: absolute;
     top: 40%;
-    left: 40%;  
-    background: rgb(240, 240, 213);
-    border: 2px outset rgb(10, 75, 119);
+    left: 40%;
+    font-family: 'Shadows Into Light', cursive; 
+    color: blanchedalmond;
     height: 200px;
-    /*IMPORTANTE*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,17 +37,24 @@ body {
     height:150px;    
     width:200px;
 }
+#fing:hover {
+    transform: scaleX(-1);
+  }
 #uach{
     float: right;
     height:150px;    
     width:200px;
 }
+#uach:hover {
+    transform: scaleX(-1);
+  }
 #boton{
     width: 110px; 
     margin-left: 50%;
     transform: translateX(-50%);
+    font-family: 'Shadows Into Light', cursive;
 }
 #boton:hover{
-    color: #ff0707;
+    color: #074c85;
     background-color: #ffffff;
 }

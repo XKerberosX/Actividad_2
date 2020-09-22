@@ -26,10 +26,29 @@ body {
     position: absolute;
     top: 40%;
     left: 40%;  
-    background: yellow;
-    height: 150px;
+    background: rgb(240, 240, 213);
+    border: 2px outset rgb(10, 75, 119);
+    height: 200px;
     /*IMPORTANTE*/
     display: flex;
     justify-content: center;
     align-items: center;
   }
+#fing{
+    height:150px;    
+    width:200px;
+}
+#uach{
+    float: right;
+    height:150px;    
+    width:200px;
+}
+#boton{
+    width: 110px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#boton:hover{
+    color: #ff0707;
+    background-color: #ffffff;
+}
